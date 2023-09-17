@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Pelanggan</title>
+    </head>
+    <body>
+        <form>
+            <h1 style="text-align:center">Input Data Pelanggan</h1>
+            <table> 
+                <tr>
+                  <td><label for="ID">ID Pelanggan</label></td>
+                  <td><input type="text" name="IDPel" id="IDPel" placeholder="ID Pelanggan"/></td>
+                </tr>
+                <tr>
+                    <td><label for="NamaPel">Nama Pelanggan</label></td>
+                    <td><input type="text" name="NamaPel" id="NamaPel" placeholder="Nama Pelanggan" size="40"/></td>
+                </tr>
+                <tr>
+                    <td><label for="Alamat">Alamat</label></td>
+                    <td><textarea name="Alamat"id="Alamat" placeholder="Alamat" rows="4" cols="60"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="NoHP">No. Handphone</label></td>
+                    <td><input type="text" name="NoHP" id="NoHP" placeholder="+62xxxxxxxxxxx" size="30"/> *) diawali dengan +62 (contoh: +6281234567890)</td>
+                </tr>
+                <tr>
+                    <td><label for="Gender">Jenis Kelamin</label></td>
+                    <td><input type="radio" name="Gender" id="co" value="Laki-laki" checked>Laki-laki
+                        <input type="radio" name="Gender" id="ce" value="Perempuan">Perempuan</td>
+                </tr>
+                <tr>
+                    <td><label for="job">Pekerjaan</label></td>
+                    <td><select name="job" id="job" >
+                        <option>Pengusaha</option>
+                        <option>Pegawai Negeri</option>
+                        <option>Pegawai Swasta</option>
+                        <option>Pengangguran</option>
+                        <option>Pemulung</option>
+                        <option>Hehe</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit" />
+                        <input type="reset" value="Reset" /></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
