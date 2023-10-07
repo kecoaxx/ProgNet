@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Pelanggan</title>
+        <link rel="icon" type="image/x-icon" href="z.etc/favicon.png">
+    </head>
+    <body>
+        <form action="inputForm.php" method="post">
+            <h1 style="text-align:center">Input Data</h1>
+            <table> 
+                <tr>
+                  <td><label for="nama">Nama Lengkap</label></td>
+                  <td><input type="text" name="nama" id="nama" size="40"/></td>
+                </tr>
+                <tr>
+                    <td><label for="tempatlahir">Tempat Lahir</label></td>
+                    <td><input type="text" name="tempatlahir" id="tempatlahir" size="40"/></td>
+                </tr>
+                <tr>
+                    <td><label for="tgllahir">Tanggal Lahir</label></td>
+                    <td><input type="date" name="tgllahir" id="tgllahir"/></td>
+                </tr>
+                <tr>
+                    <td><label for="Alamat">Alamat</label></td>
+                    <td><textarea name="Alamat"id="Alamat" placeholder="Alamat" rows="4" cols="60"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Jenis Kelamin</label></td>
+                    <td>
+                        <input type="radio" name="gender" id="Laki-laki" value="Laki-laki" checked>Laki-laki
+                        <input type="radio" name="gender" id="Perempuan" value="Perempuan">Perempuan
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><label for="nilai">Nilai UAN</label></td>
+                    <td><input type="text" name="nilai" id="nilai" size="40">
+                </td>
+                <tr>
+                    <td><label for="asalskolah">Asal Sekolah</label></td>
+                    <td><input type="text" name="asalskolah" id="asalskolah" size="40">
+                </td>
+                <tr>
+                    <td>
+                    
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Reset" />
+                    
+                    </td>
+                </tr>
+            </table>
+        </form>
+        
+    </body>
+</html>
