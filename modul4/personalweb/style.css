@@ -103,7 +103,6 @@ nav ul li a:hover::after{
     width: 80%;
     height: auto;
     border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(248, 247, 242, 0.2), 0 6px 20px 0 rgba(248, 247, 242, 0.19);
 }
 .about-col-2{
     width: 100%;
